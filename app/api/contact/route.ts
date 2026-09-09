@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     // Dispatch the email
     const data = await resend.emails.send({
       from: 'OTELA Website <onboarding@resend.dev>', // Resend's default testing domain
-      to: 'otelatechnology@gmail.com', 
+      to: 'braimaholatilewa@gmail.com', 
       subject: `New Project Inquiry from ${name}`,
       replyTo: email,
       text: `

@@ -108,7 +108,7 @@ export default function Home() {
               <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-[13px] rounded-[2px] text-[0.95rem] font-medium bg-ink text-white hover:bg-ink-soft transition-colors">
                 Email us
               </Link>
-              <a href="https://wa.me/2340000000000" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-[13px] rounded-[2px] text-[0.95rem] font-medium bg-[#1F6F5C] text-white hover:bg-[#17564A] transition-colors">
+              <a href="https://wa.me/2348021192335" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-[13px] rounded-[2px] text-[0.95rem] font-medium bg-[#1F6F5C] text-white hover:bg-[#17564A] transition-colors">
                 Message on WhatsApp
               </a>
             </div>

@@ -124,12 +124,12 @@ export default function Contact() {
           <div className="flex flex-col gap-8">
             <div>
               <h3 className="mb-1.5">Email</h3>
-              <a href="mailto:otelatechnology@gmail.com" className="text-[1.05rem] text-brass-dark hover:underline">otelatechnology@gmail.com</a>
+              <a href="mailto:braimaholatilewa@gmail.com" className="text-[1.05rem] text-brass-dark hover:underline">braimaholatilewa@gmail.com</a>
             </div>
             
             <div>
               <h3 className="mb-1.5">WhatsApp</h3>
-              <a href="https://wa.me/2340000000000" target="_blank" rel="noopener noreferrer" className="text-[1.05rem] text-brass-dark hover:underline">Message us directly</a>
+              <a href="https://wa.me/2348021192335" target="_blank" rel="noopener noreferrer" className="text-[1.05rem] text-brass-dark hover:underline">Message us directly</a>
             </div>
             
             <div>
