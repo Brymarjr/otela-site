@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
+
+@theme {
+  --color-ink: #10192B;
+  --color-ink-soft: #1C2A42;
+  --color-parchment: #F6F3EC;
+  --color-parchment-line: #DAD4C4;
+  --color-brass: #B98A46;
+  --color-brass-dark: #8F6A34;
+  --color-slate: #56698A;
+  --color-charcoal: #1C1F26;
+  --color-white: #FDFCFA;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Fraunces', Georgia, serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--color-parchment);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    margin: 0;
+    line-height: 1.6;
+    font-size: 16px;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  
+  h1, h2, h3 {
+    font-family: var(--font-serif);
+    color: var(--color-ink);
+    font-weight: 500;
+    margin: 0 0 0.5em 0;
+    line-height: 1.15;
+  }
+  
+  h1 {
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 400;
+  }
+  
+  h2 {
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  p {
+    margin: 0 0 1em 0;
+    max-width: 62ch;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
