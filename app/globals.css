@@ -4,8 +4,11 @@
 @theme {
   --color-ink: #10192B;
   --color-ink-soft: #1C2A42;
-  --color-parchment: #F6F3EC;
-  --color-parchment-line: #DAD4C4;
+  
+  /* Deepened for a more sophisticated, tactile paper feel */
+  --color-parchment: #EBE5D9;
+  --color-parchment-line: #D1C9B8; 
+  
   --color-brass: #B98A46;
   --color-brass-dark: #8F6A34;
   --color-slate: #4A5B78;
